@@ -1,0 +1,27 @@
+var namespace_robotics_1_1_model =
+[
+    [ "Battery", "class_robotics_1_1_model_1_1_battery.html", "class_robotics_1_1_model_1_1_battery" ],
+    [ "CompressedImage", "class_robotics_1_1_model_1_1_compressed_image.html", "class_robotics_1_1_model_1_1_compressed_image" ],
+    [ "Configuration", "class_robotics_1_1_model_1_1_configuration.html", "class_robotics_1_1_model_1_1_configuration" ],
+    [ "Costmap", "class_robotics_1_1_model_1_1_costmap.html", "class_robotics_1_1_model_1_1_costmap" ],
+    [ "DiagnosticStatus", "class_robotics_1_1_model_1_1_diagnostic_status.html", "class_robotics_1_1_model_1_1_diagnostic_status" ],
+    [ "DockingIR", "class_robotics_1_1_model_1_1_docking_i_r.html", "class_robotics_1_1_model_1_1_docking_i_r" ],
+    [ "EulerAngles", "class_robotics_1_1_model_1_1_euler_angles.html", "class_robotics_1_1_model_1_1_euler_angles" ],
+    [ "NavigationStatusArgs", "class_robotics_1_1_model_1_1_navigation_status_args.html", "class_robotics_1_1_model_1_1_navigation_status_args" ],
+    [ "NeckStep", "class_robotics_1_1_model_1_1_neck_step.html", "class_robotics_1_1_model_1_1_neck_step" ],
+    [ "NeckVelocity", "class_robotics_1_1_model_1_1_neck_velocity.html", "class_robotics_1_1_model_1_1_neck_velocity" ],
+    [ "Point3D", "class_robotics_1_1_model_1_1_point3_d.html", "class_robotics_1_1_model_1_1_point3_d" ],
+    [ "Pose", "class_robotics_1_1_model_1_1_pose.html", "class_robotics_1_1_model_1_1_pose" ],
+    [ "Pose2D", "class_robotics_1_1_model_1_1_pose2_d.html", "class_robotics_1_1_model_1_1_pose2_d" ],
+    [ "PoseWithCovariance", "class_robotics_1_1_model_1_1_pose_with_covariance.html", "class_robotics_1_1_model_1_1_pose_with_covariance" ],
+    [ "Quaternion", "class_robotics_1_1_model_1_1_quaternion.html", "class_robotics_1_1_model_1_1_quaternion" ],
+    [ "RgbLed", "class_robotics_1_1_model_1_1_rgb_led.html", "class_robotics_1_1_model_1_1_rgb_led" ],
+    [ "Robot", "class_robotics_1_1_model_1_1_robot.html", "class_robotics_1_1_model_1_1_robot" ],
+    [ "Scan", "class_robotics_1_1_model_1_1_scan.html", "class_robotics_1_1_model_1_1_scan" ],
+    [ "SwitchMapResult", "class_robotics_1_1_model_1_1_switch_map_result.html", "class_robotics_1_1_model_1_1_switch_map_result" ],
+    [ "UltraSonic", "class_robotics_1_1_model_1_1_ultra_sonic.html", "class_robotics_1_1_model_1_1_ultra_sonic" ],
+    [ "Vector3", "class_robotics_1_1_model_1_1_vector3.html", "class_robotics_1_1_model_1_1_vector3" ],
+    [ "Velocity", "class_robotics_1_1_model_1_1_velocity.html", "class_robotics_1_1_model_1_1_velocity" ],
+    [ "Velocity2D", "class_robotics_1_1_model_1_1_velocity2_d.html", "class_robotics_1_1_model_1_1_velocity2_d" ],
+    [ "Waypoint", "class_robotics_1_1_model_1_1_waypoint.html", "class_robotics_1_1_model_1_1_waypoint" ]
+];
