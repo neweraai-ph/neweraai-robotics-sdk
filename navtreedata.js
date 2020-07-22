@@ -23,7 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Robotics.SDK", "index.html", [
-    [ "Version 0.7.2 [2020-07-18]", "index.html", null ],
+    [ "Version 0.7.3 [2020-07-22]", "index.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
