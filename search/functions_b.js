@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rgbled_401',['RgbLed',['../class_robotics_1_1_model_1_1_rgb_led.html#ad7bcc913fcae5c92b0ffcda9075171d1',1,'Robotics.Model.RgbLed.RgbLed(byte startRed, byte startGreen, byte startBlue, byte endRed, byte endGreen, byte endBlue)'],['../class_robotics_1_1_model_1_1_rgb_led.html#a09eacb1b5c084ad987e7316fecbc40c1',1,'Robotics.Model.RgbLed.RgbLed()']]],
-  ['robot_402',['Robot',['../class_robotics_1_1_model_1_1_robot.html#a11dd68ca353614107e53b7ed1af2a318',1,'Robotics::Model::Robot']]]
+  ['qrcodeinfo_482',['QRCodeInfo',['../class_robotics_1_1_model_1_1_q_r_code_info.html#a18d397bd80191a4c9b51ad761c2a17a1',1,'Robotics::Model::QRCodeInfo']]],
+  ['quaternion_483',['Quaternion',['../class_robotics_1_1_model_1_1_quaternion.html#a029354bca95f85b5ba83c771e910c785',1,'Robotics.Model.Quaternion.Quaternion()'],['../class_robotics_1_1_model_1_1_quaternion.html#ade3de6564affa8510136ed3cd956cac5',1,'Robotics.Model.Quaternion.Quaternion(double w, double x, double y, double z)']]]
 ];

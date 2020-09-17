@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['navigationstatus_432',['NavigationStatus',['../namespace_robotics.html#aa6047ef2b1902b954996358bad5ba935',1,'Robotics']]]
+  ['emotion_521',['Emotion',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619',1,'Robotics']]]
 ];

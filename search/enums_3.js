@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['emotion_431',['Emotion',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619',1,'Robotics']]]
+  ['devicestatus_519',['DeviceStatus',['../namespace_robotics.html#a0ae6013a29063aa9fe9ea23874351bed',1,'Robotics']]],
+  ['diagnosticlevel_520',['DiagnosticLevel',['../namespace_robotics.html#a4a7cf3d9aae848482cd634896ae64113',1,'Robotics']]]
 ];

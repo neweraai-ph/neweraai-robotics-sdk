@@ -2,10 +2,13 @@ var namespace_robotics_1_1_interface =
 [
     [ "Extensions", "namespace_robotics_1_1_interface_1_1_extensions.html", "namespace_robotics_1_1_interface_1_1_extensions" ],
     [ "Factory", "namespace_robotics_1_1_interface_1_1_factory.html", "namespace_robotics_1_1_interface_1_1_factory" ],
+    [ "IBagRecorder", "interface_robotics_1_1_interface_1_1_i_bag_recorder.html", "interface_robotics_1_1_interface_1_1_i_bag_recorder" ],
     [ "IBumper", "interface_robotics_1_1_interface_1_1_i_bumper.html", "interface_robotics_1_1_interface_1_1_i_bumper" ],
     [ "ICamera", "interface_robotics_1_1_interface_1_1_i_camera.html", "interface_robotics_1_1_interface_1_1_i_camera" ],
     [ "ICameraEvents", "interface_robotics_1_1_interface_1_1_i_camera_events.html", "interface_robotics_1_1_interface_1_1_i_camera_events" ],
     [ "IConfiguration", "interface_robotics_1_1_interface_1_1_i_configuration.html", "interface_robotics_1_1_interface_1_1_i_configuration" ],
+    [ "IDoorControl", "interface_robotics_1_1_interface_1_1_i_door_control.html", "interface_robotics_1_1_interface_1_1_i_door_control" ],
+    [ "IDoorEvents", "interface_robotics_1_1_interface_1_1_i_door_events.html", "interface_robotics_1_1_interface_1_1_i_door_events" ],
     [ "IEmergencyStopButton", "interface_robotics_1_1_interface_1_1_i_emergency_stop_button.html", "interface_robotics_1_1_interface_1_1_i_emergency_stop_button" ],
     [ "IEmotion", "interface_robotics_1_1_interface_1_1_i_emotion.html", "interface_robotics_1_1_interface_1_1_i_emotion" ],
     [ "ILedControl", "interface_robotics_1_1_interface_1_1_i_led_control.html", "interface_robotics_1_1_interface_1_1_i_led_control" ],
@@ -16,9 +19,15 @@ var namespace_robotics_1_1_interface =
     [ "INavigation", "interface_robotics_1_1_interface_1_1_i_navigation.html", "interface_robotics_1_1_interface_1_1_i_navigation" ],
     [ "INavigationEvents", "interface_robotics_1_1_interface_1_1_i_navigation_events.html", "interface_robotics_1_1_interface_1_1_i_navigation_events" ],
     [ "INeck", "interface_robotics_1_1_interface_1_1_i_neck.html", "interface_robotics_1_1_interface_1_1_i_neck" ],
+    [ "IQRCodeControl", "interface_robotics_1_1_interface_1_1_i_q_r_code_control.html", "interface_robotics_1_1_interface_1_1_i_q_r_code_control" ],
+    [ "IQRCodeEvents", "interface_robotics_1_1_interface_1_1_i_q_r_code_events.html", "interface_robotics_1_1_interface_1_1_i_q_r_code_events" ],
     [ "IRobot", "interface_robotics_1_1_interface_1_1_i_robot.html", "interface_robotics_1_1_interface_1_1_i_robot" ],
     [ "IRobotControl", "interface_robotics_1_1_interface_1_1_i_robot_control.html", "interface_robotics_1_1_interface_1_1_i_robot_control" ],
     [ "IRobotEvents", "interface_robotics_1_1_interface_1_1_i_robot_events.html", "interface_robotics_1_1_interface_1_1_i_robot_events" ],
+    [ "IRobotReconfigureControl", "interface_robotics_1_1_interface_1_1_i_robot_reconfigure_control.html", "interface_robotics_1_1_interface_1_1_i_robot_reconfigure_control" ],
     [ "ISystemDiagnosticEvents", "interface_robotics_1_1_interface_1_1_i_system_diagnostic_events.html", "interface_robotics_1_1_interface_1_1_i_system_diagnostic_events" ],
-    [ "IUltraSonic", "interface_robotics_1_1_interface_1_1_i_ultra_sonic.html", "interface_robotics_1_1_interface_1_1_i_ultra_sonic" ]
+    [ "ITebPlannerReconfigure", "interface_robotics_1_1_interface_1_1_i_teb_planner_reconfigure.html", "interface_robotics_1_1_interface_1_1_i_teb_planner_reconfigure" ],
+    [ "IUltraSonic", "interface_robotics_1_1_interface_1_1_i_ultra_sonic.html", "interface_robotics_1_1_interface_1_1_i_ultra_sonic" ],
+    [ "IVSlamBuildMap", "interface_robotics_1_1_interface_1_1_i_v_slam_build_map.html", "interface_robotics_1_1_interface_1_1_i_v_slam_build_map" ],
+    [ "IVSlamBuildMapEvents", "interface_robotics_1_1_interface_1_1_i_v_slam_build_map_events.html", "interface_robotics_1_1_interface_1_1_i_v_slam_build_map_events" ]
 ];

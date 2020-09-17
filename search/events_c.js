@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['waypointsupdatereceived_590',['WaypointsUpdateReceived',['../interface_robotics_1_1_interface_1_1_i_navigation_events.html#a5100efab0dcb2287d2a791ffa825c643',1,'Robotics::Interface::INavigationEvents']]],
-  ['webcameraimagereceived_591',['WebCameraImageReceived',['../interface_robotics_1_1_interface_1_1_i_camera_events.html#ae362ceb87fda7baaccbbcf279ae1d8e5',1,'Robotics::Interface::ICameraEvents']]],
-  ['webcamerastatuschanged_592',['WebCameraStatusChanged',['../interface_robotics_1_1_interface_1_1_i_camera_events.html#a6b8adbd160edfec261432390b1823411',1,'Robotics::Interface::ICameraEvents']]]
+  ['scannedareareceived_705',['ScannedAreaReceived',['../interface_robotics_1_1_interface_1_1_i_mapping_events.html#a89a85af4981f54b548b7d592ac9a8d03',1,'Robotics::Interface::IMappingEvents']]],
+  ['scanupdatereceived_706',['ScanUpdateReceived',['../interface_robotics_1_1_interface_1_1_i_robot_events.html#a8f05a0119abf645b6778da562893c9b9',1,'Robotics::Interface::IRobotEvents']]],
+  ['shuttingdown_707',['ShuttingDown',['../interface_robotics_1_1_interface_1_1_i_robot_events.html#af290196cf5d4faef027287da9495bbfb',1,'Robotics::Interface::IRobotEvents']]]
 ];

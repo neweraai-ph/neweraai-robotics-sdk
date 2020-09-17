@@ -2,11 +2,17 @@ var namespace_robotics_1_1_model =
 [
     [ "Battery", "class_robotics_1_1_model_1_1_battery.html", "class_robotics_1_1_model_1_1_battery" ],
     [ "CompressedImage", "class_robotics_1_1_model_1_1_compressed_image.html", "class_robotics_1_1_model_1_1_compressed_image" ],
+    [ "Config", "class_robotics_1_1_model_1_1_config.html", "class_robotics_1_1_model_1_1_config" ],
+    [ "ConfigDescription", "class_robotics_1_1_model_1_1_config_description.html", "class_robotics_1_1_model_1_1_config_description" ],
+    [ "ConfigGroup", "class_robotics_1_1_model_1_1_config_group.html", "class_robotics_1_1_model_1_1_config_group" ],
+    [ "ConfigGroupState", "struct_robotics_1_1_model_1_1_config_group_state.html", "struct_robotics_1_1_model_1_1_config_group_state" ],
+    [ "ConfigParameterDescription", "struct_robotics_1_1_model_1_1_config_parameter_description.html", "struct_robotics_1_1_model_1_1_config_parameter_description" ],
     [ "Configuration", "class_robotics_1_1_model_1_1_configuration.html", "class_robotics_1_1_model_1_1_configuration" ],
     [ "Costmap", "class_robotics_1_1_model_1_1_costmap.html", "class_robotics_1_1_model_1_1_costmap" ],
     [ "DiagnosticStatus", "class_robotics_1_1_model_1_1_diagnostic_status.html", "class_robotics_1_1_model_1_1_diagnostic_status" ],
     [ "DockingIR", "class_robotics_1_1_model_1_1_docking_i_r.html", "class_robotics_1_1_model_1_1_docking_i_r" ],
     [ "EulerAngles", "class_robotics_1_1_model_1_1_euler_angles.html", "class_robotics_1_1_model_1_1_euler_angles" ],
+    [ "Image", "class_robotics_1_1_model_1_1_image.html", "class_robotics_1_1_model_1_1_image" ],
     [ "NavigationStatusArgs", "class_robotics_1_1_model_1_1_navigation_status_args.html", "class_robotics_1_1_model_1_1_navigation_status_args" ],
     [ "NeckStep", "class_robotics_1_1_model_1_1_neck_step.html", "class_robotics_1_1_model_1_1_neck_step" ],
     [ "NeckVelocity", "class_robotics_1_1_model_1_1_neck_velocity.html", "class_robotics_1_1_model_1_1_neck_velocity" ],
@@ -14,6 +20,7 @@ var namespace_robotics_1_1_model =
     [ "Pose", "class_robotics_1_1_model_1_1_pose.html", "class_robotics_1_1_model_1_1_pose" ],
     [ "Pose2D", "class_robotics_1_1_model_1_1_pose2_d.html", "class_robotics_1_1_model_1_1_pose2_d" ],
     [ "PoseWithCovariance", "class_robotics_1_1_model_1_1_pose_with_covariance.html", "class_robotics_1_1_model_1_1_pose_with_covariance" ],
+    [ "QRCodeInfo", "class_robotics_1_1_model_1_1_q_r_code_info.html", "class_robotics_1_1_model_1_1_q_r_code_info" ],
     [ "Quaternion", "class_robotics_1_1_model_1_1_quaternion.html", "class_robotics_1_1_model_1_1_quaternion" ],
     [ "RgbLed", "class_robotics_1_1_model_1_1_rgb_led.html", "class_robotics_1_1_model_1_1_rgb_led" ],
     [ "Robot", "class_robotics_1_1_model_1_1_robot.html", "class_robotics_1_1_model_1_1_robot" ],
@@ -23,5 +30,6 @@ var namespace_robotics_1_1_model =
     [ "Vector3", "class_robotics_1_1_model_1_1_vector3.html", "class_robotics_1_1_model_1_1_vector3" ],
     [ "Velocity", "class_robotics_1_1_model_1_1_velocity.html", "class_robotics_1_1_model_1_1_velocity" ],
     [ "Velocity2D", "class_robotics_1_1_model_1_1_velocity2_d.html", "class_robotics_1_1_model_1_1_velocity2_d" ],
+    [ "VSlamBuildMapEventArgs", "class_robotics_1_1_model_1_1_v_slam_build_map_event_args.html", "class_robotics_1_1_model_1_1_v_slam_build_map_event_args" ],
     [ "Waypoint", "class_robotics_1_1_model_1_1_waypoint.html", "class_robotics_1_1_model_1_1_waypoint" ]
 ];

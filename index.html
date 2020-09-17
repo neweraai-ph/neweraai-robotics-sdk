@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.7.4</span>
+   &#160;<span id="projectnumber">v0.8.0</span>
    </div>
   </td>
  </tr>
@@ -87,6 +87,80 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><b>Download releases</b> <a href="https://github.com/neweraai-ph/neweraai-robotics-sdk/releases"><b>here</b></a></p>
+<hr  />
+<h2>Version 0.8.0 [2020-09-17]</h2>
+<ul>
+<li><b>What's new</b><ul>
+<li><b>Interfaces:</b><ul>
+<li>IDoorControl<ul>
+<li>SetLock</li>
+<li>IDoorEvents.LockStateReceived</li>
+<li>IDoorEvents.DoorOpened</li>
+</ul>
+</li>
+<li>ITebPlannerReconfigure<ul>
+<li>Create</li>
+</ul>
+</li>
+<li>IRobotReconfigureControl<ul>
+<li>RegisterUpdatesNotification</li>
+<li>GetDescriptions</li>
+<li>Set</li>
+</ul>
+</li>
+<li>IVSlamBuildMap<ul>
+<li>Start</li>
+<li>StartAsync</li>
+<li>Cancel</li>
+<li>IVSlamBuildMapEvents.OnBuildMapStatusUpdate</li>
+<li>IVSlamBuildMapEvents.OnBuildMapCompleted</li>
+</ul>
+</li>
+<li>ICameraEvents<ul>
+<li>IRCamera1ImageReceived</li>
+<li>IRCamera2ImageReceived</li>
+</ul>
+</li>
+<li>IBagRecorder<ul>
+<li>Start</li>
+<li>Stop</li>
+<li>GetBagFiles</li>
+<li>DeleteBagFile</li>
+</ul>
+</li>
+<li>INavigation<ul>
+<li>Undeprecate <em>GetNavigationStatus</em></li>
+<li>Undeprecate <em>NavigationStatusReceived</em></li>
+</ul>
+</li>
+<li>IQRCodeControl<ul>
+<li>Decode</li>
+<li>IQRCodeEvents.DecodeReportReceived</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><b>Models:</b><ul>
+<li>Config</li>
+<li>ConfigDescription</li>
+<li>ConfigGroup</li>
+<li>ConfigGroupState</li>
+<li>ConfigParameterDescription</li>
+<li>VSlamBuildMapEventArgs</li>
+<li>Image</li>
+<li>QRCodeInfo</li>
+</ul>
+</li>
+<li><b>Enum:</b> <em>CodeReaderControl</em></li>
+<li><b>Extensions:</b><ul>
+<li>Image.ToBitmap</li>
+<li>Image.ToBitmapSource</li>
+</ul>
+</li>
+<li><b>Config:</b> <em>dynamicreconfigure.config.json</em></li>
+</ul>
+</li>
+</ul>
 <hr  />
 <h2>Version 0.7.4 [2020-08-13]</h2>
 <ul>

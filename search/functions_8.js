@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['navigationstatusargs_392',['NavigationStatusArgs',['../class_robotics_1_1_model_1_1_navigation_status_args.html#a9265073382e12a0712ce8a7612007f0d',1,'Robotics::Model::NavigationStatusArgs']]],
-  ['neckstep_393',['NeckStep',['../class_robotics_1_1_model_1_1_neck_step.html#a70ec851987001e21946249aae3f3faf2',1,'Robotics.Model.NeckStep.NeckStep(int tilt, int pan)'],['../class_robotics_1_1_model_1_1_neck_step.html#afbfea52c1a6eb2907f1dd2ca18d2736b',1,'Robotics.Model.NeckStep.NeckStep()']]],
-  ['neckvelocity_394',['NeckVelocity',['../class_robotics_1_1_model_1_1_neck_velocity.html#a02c42778e6e0aa54ba11d1677e2666ab',1,'Robotics.Model.NeckVelocity.NeckVelocity(int tiltVelocity, int panVelocity)'],['../class_robotics_1_1_model_1_1_neck_velocity.html#a84d16a97e3188f9f0868c2eaa1abe5a6',1,'Robotics.Model.NeckVelocity.NeckVelocity()']]]
+  ['moveneck_472',['MoveNeck',['../interface_robotics_1_1_interface_1_1_i_neck.html#a0fd8b1be3b3a58e17d2149540b97d364',1,'Robotics.Interface.INeck.MoveNeck(NeckVelocity neckVelocity)'],['../interface_robotics_1_1_interface_1_1_i_neck.html#a8cd731db6001031c0c00dabbad9429a2',1,'Robotics.Interface.INeck.MoveNeck(NeckStep neckStep)']]],
+  ['moverobot_473',['MoveRobot',['../interface_robotics_1_1_interface_1_1_i_robot_control.html#a5436d842ffc10cdd2e3e7df89d8e9524',1,'Robotics.Interface.IRobotControl.MoveRobot(Velocity2D velocity)'],['../interface_robotics_1_1_interface_1_1_i_robot_control.html#a828f0dcbc0576736b180b7d1c1d2237d',1,'Robotics.Interface.IRobotControl.MoveRobot(Pose2D distance)']]]
 ];

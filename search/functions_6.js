@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadmap_389',['LoadMap',['../interface_robotics_1_1_interface_1_1_i_navigation.html#a60c672ea8fefda59a2ec651061f03652',1,'Robotics::Interface::INavigation']]]
+  ['image_470',['Image',['../class_robotics_1_1_model_1_1_image.html#ad148aa13407e53d38ba19361534606d1',1,'Robotics::Model::Image']]]
 ];
