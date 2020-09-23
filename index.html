@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.8.0</span>
+   &#160;<span id="projectnumber">v0.9.0</span>
    </div>
   </td>
  </tr>
@@ -87,6 +87,33 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><b>Download releases</b> <a href="https://github.com/neweraai-ph/neweraai-robotics-sdk/releases"><b>here</b></a></p>
+<hr  />
+<h2>Version 0.9.0 [2020-09-23]</h2>
+<ul>
+<li><b>What's new</b><ul>
+<li><b>Interfaces:</b><ul>
+<li>IRobotControl<ul>
+<li>SetHeadControl</li>
+<li>SetHorizontalHeadControl</li>
+<li>SetVerticalHeadControl</li>
+<li>IRobotEvents.HorizontalHeadStateReceived</li>
+<li>IRobotEvents.VerticalHeadStateReceived</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><b>Fix Bugs:</b><ul>
+<li>IBagRecorder.DeleteBagFile not working.</li>
+</ul>
+</li>
+<li><b>Changes:</b><ul>
+<li>Opencv binaries are now included in sdk installation.</li>
+<li>Factory nuget config <em>robotics.sdk.config.json</em> is now installed at project root directory <em></em>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <hr  />
 <h2>Version 0.8.0 [2020-09-17]</h2>
 <ul>

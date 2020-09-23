@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.8.0</span>
+   &#160;<span id="projectnumber">v0.9.0</span>
    </div>
   </td>
  </tr>
@@ -136,6 +136,16 @@ Events</h2></td></tr>
 <tr class="memitem:a5614814d9d76655ce1cfc2699ab4e39b"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a5614814d9d76655ce1cfc2699ab4e39b">EmergencyButtonPressed</a></td></tr>
 <tr class="memdesc:a5614814d9d76655ce1cfc2699ab4e39b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emergency button status changed.  <a href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a5614814d9d76655ce1cfc2699ab4e39b">More...</a><br /></td></tr>
 <tr class="separator:a5614814d9d76655ce1cfc2699ab4e39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a6b8ff86636ad3876f5b3c6f95f310"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; ushort &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a76a6b8ff86636ad3876f5b3c6f95f310">HorizontalHeadStateReceived</a></td></tr>
+<tr class="memdesc:a76a6b8ff86636ad3876f5b3c6f95f310"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of head motor for left and right motion. <br  />
+ <em>Range = 0 - 1023 (bit 0 - 9)</em><br  />
+ <em>Bit 10 - 15 is reseved for error code.</em>  <a href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a76a6b8ff86636ad3876f5b3c6f95f310">More...</a><br /></td></tr>
+<tr class="separator:a76a6b8ff86636ad3876f5b3c6f95f310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447551b6583835f24c737ab1bca8cbbe"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; ushort &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a447551b6583835f24c737ab1bca8cbbe">VerticalHeadStateReceived</a></td></tr>
+<tr class="memdesc:a447551b6583835f24c737ab1bca8cbbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of head motor for up and down motion. <br  />
+ <em>Range = 0 - 1023 (bit 0 - 9)</em><br  />
+ <em>Bit 10 - 15 is reseved for error code.</em>  <a href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a447551b6583835f24c737ab1bca8cbbe">More...</a><br /></td></tr>
+<tr class="separator:a447551b6583835f24c737ab1bca8cbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><b><a class="el" href="namespace_robotics_1_1_interface.html">Interface</a> for Receiving <a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_control.html" title="The interface for common Robot Controls.">IRobotControl</a> Events</b>. </p>
@@ -220,6 +230,24 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="a76a6b8ff86636ad3876f5b3c6f95f310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a6b8ff86636ad3876f5b3c6f95f310">&#9670;&nbsp;</a></span>HorizontalHeadStateReceived</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataReceivedCallback&lt;ushort&gt; Robotics.Interface.IRobotEvents.HorizontalHeadStateReceived</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The position of head motor for left and right motion. <br  />
+ <em>Range = 0 - 1023 (bit 0 - 9)</em><br  />
+ <em>Bit 10 - 15 is reseved for error code.</em> </p>
+
+</div>
+</div>
 <a id="a0088d097b245ac9140b3ab9f1844b5f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0088d097b245ac9140b3ab9f1844b5f4">&#9670;&nbsp;</a></span>LidarStatusChanged</h2>
 
@@ -299,6 +327,24 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Showing the ultrasonic sensors status to measure distance to avoid hitting an object. </p>
+
+</div>
+</div>
+<a id="a447551b6583835f24c737ab1bca8cbbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a447551b6583835f24c737ab1bca8cbbe">&#9670;&nbsp;</a></span>VerticalHeadStateReceived</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataReceivedCallback&lt;ushort&gt; Robotics.Interface.IRobotEvents.VerticalHeadStateReceived</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The position of head motor for up and down motion. <br  />
+ <em>Range = 0 - 1023 (bit 0 - 9)</em><br  />
+ <em>Bit 10 - 15 is reseved for error code.</em> </p>
 
 </div>
 </div>

@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.8.0</span>
+   &#160;<span id="projectnumber">v0.9.0</span>
    </div>
   </td>
  </tr>
@@ -127,6 +127,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e366cc2a908429db3a0cc71bfc9b944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_control.html#a1e366cc2a908429db3a0cc71bfc9b944">DockRobot</a> (bool dock)</td></tr>
 <tr class="memdesc:a1e366cc2a908429db3a0cc71bfc9b944"><td class="mdescLeft">&#160;</td><td class="mdescRight">The robot will execute charging.  <a href="interface_robotics_1_1_interface_1_1_i_robot_control.html#a1e366cc2a908429db3a0cc71bfc9b944">More...</a><br /></td></tr>
 <tr class="separator:a1e366cc2a908429db3a0cc71bfc9b944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0f01f1fb9a4bf9a4f444c975bc3b84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_control.html#a9a0f01f1fb9a4bf9a4f444c975bc3b84">SetHeadControl</a> (ushort horizontalValue, ushort verticalValue)</td></tr>
+<tr class="memdesc:a9a0f01f1fb9a4bf9a4f444c975bc3b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control robot head motor for left, right, up and down motion.  <a href="interface_robotics_1_1_interface_1_1_i_robot_control.html#a9a0f01f1fb9a4bf9a4f444c975bc3b84">More...</a><br /></td></tr>
+<tr class="separator:a9a0f01f1fb9a4bf9a4f444c975bc3b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf30ad65a2b342442339442dca2f0dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_control.html#acf30ad65a2b342442339442dca2f0dad">SetHorizontalHeadControl</a> (ushort value)</td></tr>
+<tr class="memdesc:acf30ad65a2b342442339442dca2f0dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control robot head motor for left and right motion.  <a href="interface_robotics_1_1_interface_1_1_i_robot_control.html#acf30ad65a2b342442339442dca2f0dad">More...</a><br /></td></tr>
+<tr class="separator:acf30ad65a2b342442339442dca2f0dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2413df22c710be0a55657737761ef85f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_control.html#a2413df22c710be0a55657737761ef85f">SetVerticalHeadControl</a> (ushort value)</td></tr>
+<tr class="memdesc:a2413df22c710be0a55657737761ef85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control robot head motor for up and down motion.  <a href="interface_robotics_1_1_interface_1_1_i_robot_control.html#a2413df22c710be0a55657737761ef85f">More...</a><br /></td></tr>
+<tr class="separator:a2413df22c710be0a55657737761ef85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interface_robotics_1_1_interface_1_1_i_neck"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_robotics_1_1_interface_1_1_i_neck')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_robotics_1_1_interface_1_1_i_neck.html">Robotics.Interface.INeck</a></td></tr>
 <tr class="memitem:ae4e3767896d6c54eed2a1e2a93e52855 inherit pub_methods_interface_robotics_1_1_interface_1_1_i_neck"><td class="memItemLeft" align="right" valign="top">bool[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_neck.html#ae4e3767896d6c54eed2a1e2a93e52855">GetNeckAck</a> ()</td></tr>
 <tr class="memdesc:ae4e3767896d6c54eed2a1e2a93e52855 inherit pub_methods_interface_robotics_1_1_interface_1_1_i_neck"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves neck acknowledgement.  <a href="interface_robotics_1_1_interface_1_1_i_neck.html#ae4e3767896d6c54eed2a1e2a93e52855">More...</a><br /></td></tr>
@@ -230,6 +239,16 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5614814d9d76655ce1cfc2699ab4e39b inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a5614814d9d76655ce1cfc2699ab4e39b">EmergencyButtonPressed</a></td></tr>
 <tr class="memdesc:a5614814d9d76655ce1cfc2699ab4e39b inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emergency button status changed.  <a href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a5614814d9d76655ce1cfc2699ab4e39b">More...</a><br /></td></tr>
 <tr class="separator:a5614814d9d76655ce1cfc2699ab4e39b inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a6b8ff86636ad3876f5b3c6f95f310 inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; ushort &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a76a6b8ff86636ad3876f5b3c6f95f310">HorizontalHeadStateReceived</a></td></tr>
+<tr class="memdesc:a76a6b8ff86636ad3876f5b3c6f95f310 inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of head motor for left and right motion. <br  />
+ <em>Range = 0 - 1023 (bit 0 - 9)</em><br  />
+ <em>Bit 10 - 15 is reseved for error code.</em>  <a href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a76a6b8ff86636ad3876f5b3c6f95f310">More...</a><br /></td></tr>
+<tr class="separator:a76a6b8ff86636ad3876f5b3c6f95f310 inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447551b6583835f24c737ab1bca8cbbe inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; ushort &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a447551b6583835f24c737ab1bca8cbbe">VerticalHeadStateReceived</a></td></tr>
+<tr class="memdesc:a447551b6583835f24c737ab1bca8cbbe inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of head motor for up and down motion. <br  />
+ <em>Range = 0 - 1023 (bit 0 - 9)</em><br  />
+ <em>Bit 10 - 15 is reseved for error code.</em>  <a href="interface_robotics_1_1_interface_1_1_i_robot_events.html#a447551b6583835f24c737ab1bca8cbbe">More...</a><br /></td></tr>
+<tr class="separator:a447551b6583835f24c737ab1bca8cbbe inherit events_interface_robotics_1_1_interface_1_1_i_robot_events"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_interface_robotics_1_1_interface_1_1_i_camera_events"><td colspan="2" onclick="javascript:toggleInherit('events_interface_robotics_1_1_interface_1_1_i_camera_events')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="interface_robotics_1_1_interface_1_1_i_camera_events.html">Robotics.Interface.ICameraEvents</a></td></tr>
 <tr class="memitem:ae362ceb87fda7baaccbbcf279ae1d8e5 inherit events_interface_robotics_1_1_interface_1_1_i_camera_events"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; <a class="el" href="class_robotics_1_1_model_1_1_compressed_image.html">CompressedImage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_camera_events.html#ae362ceb87fda7baaccbbcf279ae1d8e5">WebCameraImageReceived</a></td></tr>
 <tr class="memdesc:ae362ceb87fda7baaccbbcf279ae1d8e5 inherit events_interface_robotics_1_1_interface_1_1_i_camera_events"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event for receiving web camera frame.  <a href="interface_robotics_1_1_interface_1_1_i_camera_events.html#ae362ceb87fda7baaccbbcf279ae1d8e5">More...</a><br /></td></tr>
@@ -358,6 +377,117 @@ Additional Inherited Members</h2></td></tr>
   <table class="exception">
     <tr><td class="paramname">TimeoutException</td><td>Ros master not connected.</td></tr>
     <tr><td class="paramname">ArgumentNullException</td><td>Parameter <em>velocity</em>  cannot be null.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9a0f01f1fb9a4bf9a4f444c975bc3b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0f01f1fb9a4bf9a4f444c975bc3b84">&#9670;&nbsp;</a></span>SetHeadControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Robotics.Interface.IRobotControl.SetHeadControl </td>
+          <td>(</td>
+          <td class="paramtype">ushort&#160;</td>
+          <td class="paramname"><em>horizontalValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ushort&#160;</td>
+          <td class="paramname"><em>verticalValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Control robot head motor for left, right, up and down motion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">horizontalValue</td><td>Left and right motion value. <br  />
+ <em>Range = 0 - 1023</em></td></tr>
+    <tr><td class="paramname">verticalValue</td><td>Up and down motion value. <br  />
+ <em>Range = 0 - 1023</em></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">TimeoutException</td><td>Ros master not connected.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acf30ad65a2b342442339442dca2f0dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf30ad65a2b342442339442dca2f0dad">&#9670;&nbsp;</a></span>SetHorizontalHeadControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Robotics.Interface.IRobotControl.SetHorizontalHeadControl </td>
+          <td>(</td>
+          <td class="paramtype">ushort&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Control robot head motor for left and right motion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Left and right motion value. <br  />
+ <em>Range = 0 - 1023</em></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">TimeoutException</td><td>Ros master not connected.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2413df22c710be0a55657737761ef85f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2413df22c710be0a55657737761ef85f">&#9670;&nbsp;</a></span>SetVerticalHeadControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Robotics.Interface.IRobotControl.SetVerticalHeadControl </td>
+          <td>(</td>
+          <td class="paramtype">ushort&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Control robot head motor for up and down motion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Up and down motion value. <br  />
+ <em>Range = 0 - 1023</em></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">TimeoutException</td><td>Ros master not connected.</td></tr>
   </table>
   </dd>
 </dl>
