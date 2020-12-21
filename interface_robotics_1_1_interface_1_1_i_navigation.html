@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.9.1</span>
+   &#160;<span id="projectnumber">v0.10.0</span>
    </div>
   </td>
  </tr>
@@ -127,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60c672ea8fefda59a2ec651061f03652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_navigation.html#a60c672ea8fefda59a2ec651061f03652">LoadMap</a> (string mapName)</td></tr>
 <tr class="memdesc:a60c672ea8fefda59a2ec651061f03652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the given map to start navigation.  <a href="interface_robotics_1_1_interface_1_1_i_navigation.html#a60c672ea8fefda59a2ec651061f03652">More...</a><br /></td></tr>
 <tr class="separator:a60c672ea8fefda59a2ec651061f03652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472e8620c46f252b9f64948357e1bdbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_navigation.html#a472e8620c46f252b9f64948357e1bdbf">LoadMap</a> (string mapName, <a class="el" href="class_robotics_1_1_model_1_1_pose.html">Pose</a> initialPose)</td></tr>
+<tr class="memdesc:a472e8620c46f252b9f64948357e1bdbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the given map to start navigation.  <a href="interface_robotics_1_1_interface_1_1_i_navigation.html#a472e8620c46f252b9f64948357e1bdbf">More...</a><br /></td></tr>
+<tr class="separator:a472e8620c46f252b9f64948357e1bdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac64a19c9d80957ae32bb57349f081312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_robotics_1_1_model_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_navigation.html#ac64a19c9d80957ae32bb57349f081312">GetCurrentPose</a> ()</td></tr>
 <tr class="memdesc:ac64a19c9d80957ae32bb57349f081312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves robot's current <a class="el" href="class_robotics_1_1_model_1_1_pose.html">pose</a>.  <a href="interface_robotics_1_1_interface_1_1_i_navigation.html#ac64a19c9d80957ae32bb57349f081312">More...</a><br /></td></tr>
 <tr class="separator:ac64a19c9d80957ae32bb57349f081312"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +201,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5100efab0dcb2287d2a791ffa825c643 inherit events_interface_robotics_1_1_interface_1_1_i_navigation_events"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; <a class="el" href="class_robotics_1_1_model_1_1_waypoint.html">Waypoint</a>[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_navigation_events.html#a5100efab0dcb2287d2a791ffa825c643">WaypointsUpdateReceived</a></td></tr>
 <tr class="memdesc:a5100efab0dcb2287d2a791ffa825c643 inherit events_interface_robotics_1_1_interface_1_1_i_navigation_events"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current loaded navigation <a class="el" href="class_robotics_1_1_model_1_1_waypoint.html">waypoint</a> update event.  <a href="interface_robotics_1_1_interface_1_1_i_navigation_events.html#a5100efab0dcb2287d2a791ffa825c643">More...</a><br /></td></tr>
 <tr class="separator:a5100efab0dcb2287d2a791ffa825c643 inherit events_interface_robotics_1_1_interface_1_1_i_navigation_events"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa1fe4c6cd1c7d9d82a29187fe6ed1b5 inherit events_interface_robotics_1_1_interface_1_1_i_navigation_events"><td class="memItemLeft" align="right" valign="top">DataReceivedCallback&lt; <a class="el" href="class_robotics_1_1_model_1_1_laser.html">Laser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robotics_1_1_interface_1_1_i_navigation_events.html#aaa1fe4c6cd1c7d9d82a29187fe6ed1b5">LaserScanUpdateReceived</a></td></tr>
+<tr class="memdesc:aaa1fe4c6cd1c7d9d82a29187fe6ed1b5 inherit events_interface_robotics_1_1_interface_1_1_i_navigation_events"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Laser Scan</b> update event.  <a href="interface_robotics_1_1_interface_1_1_i_navigation_events.html#aaa1fe4c6cd1c7d9d82a29187fe6ed1b5">More...</a><br /></td></tr>
+<tr class="separator:aaa1fe4c6cd1c7d9d82a29187fe6ed1b5 inherit events_interface_robotics_1_1_interface_1_1_i_navigation_events"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><b><a class="el" href="namespace_robotics_1_1_interface.html">Interface</a> for Robot Navigation</b>. <br  />
@@ -462,7 +468,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a60c672ea8fefda59a2ec651061f03652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c672ea8fefda59a2ec651061f03652">&#9670;&nbsp;</a></span>LoadMap()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c672ea8fefda59a2ec651061f03652">&#9670;&nbsp;</a></span>LoadMap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -487,6 +493,50 @@ Additional Inherited Members</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">ArgumentNullException</td><td><em>mapName</em>  is null, empty or whitespace.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a472e8620c46f252b9f64948357e1bdbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472e8620c46f252b9f64948357e1bdbf">&#9670;&nbsp;</a></span>LoadMap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Robotics.Interface.INavigation.LoadMap </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>mapName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_robotics_1_1_model_1_1_pose.html">Pose</a>&#160;</td>
+          <td class="paramname"><em>initialPose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads the given map to start navigation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapName</td><td>Map name to load.</td></tr>
+    <tr><td class="paramname">initialPose</td><td>Map default initial pose.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentNullException</td><td><em>mapName</em>  is null, empty or whitespace.</td></tr>
+    <tr><td class="paramname">ArgumentNullException</td><td><em>initialPose</em>  is null.</td></tr>
   </table>
   </dd>
 </dl>

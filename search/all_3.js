@@ -23,7 +23,7 @@ var searchData=
   ['diagnosticstatus_66',['DiagnosticStatus',['../class_robotics_1_1_model_1_1_diagnostic_status.html',1,'Robotics.Model.DiagnosticStatus'],['../class_robotics_1_1_model_1_1_diagnostic_status.html#ad7e6d7b9492f5539135650771ef9cb22',1,'Robotics.Model.DiagnosticStatus.DiagnosticStatus()']]],
   ['discharging_67',['Discharging',['../namespace_robotics.html#a16d8fb08fb66e5830e1a2bb46e09e3c6a656b8990f73ffbc5dbd823738f3126c9',1,'Robotics']]],
   ['disconnected_68',['Disconnected',['../namespace_robotics.html#a0ae6013a29063aa9fe9ea23874351bedaef70e46fd3bbc21e3e1f0b6815e750c0',1,'Robotics']]],
-  ['dispose_69',['Dispose',['../class_robotics_1_1_interface_1_1_extensions_1_1_compressed_image_extension.html#a57485199bfc5948d63c1b162f37580b4',1,'Robotics::Interface::Extensions::CompressedImageExtension']]],
+  ['disposableobject_69',['DisposableObject',['../class_robotics_1_1_model_1_1_disposable_object.html',1,'Robotics.Model.DisposableObject&lt; T &gt;'],['../class_robotics_1_1_model_1_1_disposable_object.html#a92f19a768b2e4fc3b6b62ea98c5407ea',1,'Robotics.Model.DisposableObject.DisposableObject()']]],
   ['distancecurrenttrip_70',['DistanceCurrentTrip',['../class_robotics_1_1_model_1_1_robot.html#a86ea8a8d61c93b1459e3f22de3c929e4',1,'Robotics::Model::Robot']]],
   ['distancetotaltrip_71',['DistanceTotalTrip',['../class_robotics_1_1_model_1_1_robot.html#a7323e3a333575d9414a91cad5b487158',1,'Robotics::Model::Robot']]],
   ['dockingir_72',['DockingIR',['../class_robotics_1_1_model_1_1_docking_i_r.html',1,'Robotics.Model.DockingIR'],['../class_robotics_1_1_model_1_1_docking_i_r.html#a130cc31b393fb7a638e65e7722a48113',1,'Robotics.Model.DockingIR.DockingIR()']]],

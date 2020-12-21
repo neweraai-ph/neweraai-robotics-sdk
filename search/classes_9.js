@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rgbled_395',['RgbLed',['../class_robotics_1_1_model_1_1_rgb_led.html',1,'Robotics::Model']]],
-  ['robot_396',['Robot',['../class_robotics_1_1_model_1_1_robot.html',1,'Robotics::Model']]]
+  ['qrcodeinfo_397',['QRCodeInfo',['../class_robotics_1_1_model_1_1_q_r_code_info.html',1,'Robotics::Model']]],
+  ['quaternion_398',['Quaternion',['../class_robotics_1_1_model_1_1_quaternion.html',1,'Robotics::Model']]]
 ];

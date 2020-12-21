@@ -12,6 +12,7 @@ var hierarchy =
     [ "Robotics.Model.Costmap", "class_robotics_1_1_model_1_1_costmap.html", null ],
     [ "Robotics.Interface.Extensions.CostmapExtensions", "class_robotics_1_1_interface_1_1_extensions_1_1_costmap_extensions.html", null ],
     [ "Robotics.Model.DiagnosticStatus", "class_robotics_1_1_model_1_1_diagnostic_status.html", null ],
+    [ "Robotics.Model.DisposableObject< T >", "class_robotics_1_1_model_1_1_disposable_object.html", null ],
     [ "Robotics.Model.DockingIR", "class_robotics_1_1_model_1_1_docking_i_r.html", null ],
     [ "Robotics.Model.EulerAngles", "class_robotics_1_1_model_1_1_euler_angles.html", null ],
     [ "Robotics.Interface.IBagRecorder", "interface_robotics_1_1_interface_1_1_i_bag_recorder.html", null ],
@@ -71,6 +72,7 @@ var hierarchy =
     [ "Robotics.Interface.IVSlamBuildMapEvents", "interface_robotics_1_1_interface_1_1_i_v_slam_build_map_events.html", [
       [ "Robotics.Interface.IVSlamBuildMap", "interface_robotics_1_1_interface_1_1_i_v_slam_build_map.html", null ]
     ] ],
+    [ "Robotics.Model.Laser", "class_robotics_1_1_model_1_1_laser.html", null ],
     [ "Robotics.Interface.Extensions.MapExtensions", "class_robotics_1_1_interface_1_1_extensions_1_1_map_extensions.html", null ],
     [ "Robotics.Model.NavigationStatusArgs", "class_robotics_1_1_model_1_1_navigation_status_args.html", null ],
     [ "Robotics.Model.NeckStep", "class_robotics_1_1_model_1_1_neck_step.html", null ],

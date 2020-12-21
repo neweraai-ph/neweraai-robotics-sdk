@@ -36,7 +36,8 @@ var searchData=
   ['isscanning_169',['IsScanning',['../interface_robotics_1_1_interface_1_1_i_mapping.html#ac0e5c365cb07b9d051ecebb308a9eeb6',1,'Robotics::Interface::IMapping']]],
   ['isystemdiagnosticevents_170',['ISystemDiagnosticEvents',['../interface_robotics_1_1_interface_1_1_i_system_diagnostic_events.html',1,'Robotics::Interface']]],
   ['itebplannerreconfigure_171',['ITebPlannerReconfigure',['../interface_robotics_1_1_interface_1_1_i_teb_planner_reconfigure.html',1,'Robotics::Interface']]],
-  ['iultrasonic_172',['IUltraSonic',['../interface_robotics_1_1_interface_1_1_i_ultra_sonic.html',1,'Robotics::Interface']]],
-  ['ivslambuildmap_173',['IVSlamBuildMap',['../interface_robotics_1_1_interface_1_1_i_v_slam_build_map.html',1,'Robotics::Interface']]],
-  ['ivslambuildmapevents_174',['IVSlamBuildMapEvents',['../interface_robotics_1_1_interface_1_1_i_v_slam_build_map_events.html',1,'Robotics::Interface']]]
+  ['item_172',['Item',['../class_robotics_1_1_model_1_1_disposable_object.html#a574bf8a4263d9567d0ff1170ab3af3ad',1,'Robotics::Model::DisposableObject']]],
+  ['iultrasonic_173',['IUltraSonic',['../interface_robotics_1_1_interface_1_1_i_ultra_sonic.html',1,'Robotics::Interface']]],
+  ['ivslambuildmap_174',['IVSlamBuildMap',['../interface_robotics_1_1_interface_1_1_i_v_slam_build_map.html',1,'Robotics::Interface']]],
+  ['ivslambuildmapevents_175',['IVSlamBuildMapEvents',['../interface_robotics_1_1_interface_1_1_i_v_slam_build_map_events.html',1,'Robotics::Interface']]]
 ];

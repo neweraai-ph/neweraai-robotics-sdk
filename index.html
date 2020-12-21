@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.9.1</span>
+   &#160;<span id="projectnumber">v0.10.0</span>
    </div>
   </td>
  </tr>
@@ -87,6 +87,33 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><b>Download releases</b> <a href="https://github.com/neweraai-ph/neweraai-robotics-sdk/releases"><b>here</b></a></p>
+<hr  />
+<h2>Version 0.10.0 [2020-12-21]</h2>
+<ul>
+<li><b>What's new</b><ul>
+<li><b>Models:</b><ul>
+<li>Laser (<em>Scan</em> implementation with transform)</li>
+<li>DisposableObject (manage object with dependencies that implements <em>IDisposable</em> interface)</li>
+</ul>
+</li>
+<li><b>Interfaces:</b><ul>
+<li>INavigation.LoadMap(string, Pose) - <em>Pose</em> overload</li>
+<li>INavigationEvents.LaserScanUpdateReceived</li>
+</ul>
+</li>
+<li><b>Extensions:</b><ul>
+<li>ToBitmap - Returns <em>DisposableObject&lt;Bitmap&gt;</em></li>
+<li>Removed ToBitmapSource</li>
+</ul>
+</li>
+<li><b>Fix Bugs:</b><ul>
+<li>OpenCVSharp not loaded when run in Robot</li>
+<li>LoadMap race issue</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <hr  />
 <h2>Version 0.9.1 [2020-09-25]</h2>
 <ul>

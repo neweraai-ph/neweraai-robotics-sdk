@@ -12,6 +12,7 @@ var interface_robotics_1_1_interface_1_1_i_navigation =
     [ "GetWaypoints", "interface_robotics_1_1_interface_1_1_i_navigation.html#a9faa2be6635579594acfac6c8c0b7907", null ],
     [ "GoTo", "interface_robotics_1_1_interface_1_1_i_navigation.html#a8592e3646d39fa329e17fda300bfd60a", null ],
     [ "LoadMap", "interface_robotics_1_1_interface_1_1_i_navigation.html#a60c672ea8fefda59a2ec651061f03652", null ],
+    [ "LoadMap", "interface_robotics_1_1_interface_1_1_i_navigation.html#a472e8620c46f252b9f64948357e1bdbf", null ],
     [ "SetInitialPose", "interface_robotics_1_1_interface_1_1_i_navigation.html#a41943e02b899860d544b03f18c114abc", null ],
     [ "SetInitialPose", "interface_robotics_1_1_interface_1_1_i_navigation.html#a06aba8efb3b3d1331016809492edc611", null ],
     [ "Stop", "interface_robotics_1_1_interface_1_1_i_navigation.html#a71d2bb3a83f96829f93da14f42ddd61a", null ],

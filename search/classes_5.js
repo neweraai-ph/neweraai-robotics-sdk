@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mapextensions_383',['MapExtensions',['../class_robotics_1_1_interface_1_1_extensions_1_1_map_extensions.html',1,'Robotics::Interface::Extensions']]]
+  ['laser_386',['Laser',['../class_robotics_1_1_model_1_1_laser.html',1,'Robotics::Model']]]
 ];
