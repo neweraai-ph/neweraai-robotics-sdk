@@ -30,8 +30,9 @@ var searchData=
   ['dockirstatusreceived_73',['DockIRStatusReceived',['../interface_robotics_1_1_interface_1_1_i_robot_events.html#aec4b9655e80c85b7c8f2c0c7987d5b39',1,'Robotics::Interface::IRobotEvents']]],
   ['dockrobot_74',['DockRobot',['../interface_robotics_1_1_interface_1_1_i_robot_control.html#a1e366cc2a908429db3a0cc71bfc9b944',1,'Robotics::Interface::IRobotControl']]],
   ['dockstatusreceived_75',['DockStatusReceived',['../interface_robotics_1_1_interface_1_1_i_robot_events.html#a43dd816ab6ac27d5e96b9ab201a41440',1,'Robotics::Interface::IRobotEvents']]],
-  ['dooropened_76',['DoorOpened',['../interface_robotics_1_1_interface_1_1_i_door_events.html#a0b2fa521eed1885f62970ad9383bdec5',1,'Robotics::Interface::IDoorEvents']]],
-  ['doubles_77',['Doubles',['../class_robotics_1_1_model_1_1_config.html#aba745864d784f28ff7d06a31a7e4e78e',1,'Robotics::Model::Config']]],
-  ['doubt_78',['Doubt',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619a818a631ad45a98c7c497afdccc01875b',1,'Robotics']]],
-  ['duration_79',['Duration',['../class_robotics_1_1_model_1_1_v_slam_build_map_event_args.html#a12f41f074adb86195d3046d3774024ef',1,'Robotics::Model::VSlamBuildMapEventArgs']]]
+  ['dockupstatusreceived_76',['DockUpStatusReceived',['../interface_robotics_1_1_interface_1_1_i_robot_events.html#a27c57e7a8a51309e8131685db296cd63',1,'Robotics::Interface::IRobotEvents']]],
+  ['dooropened_77',['DoorOpened',['../interface_robotics_1_1_interface_1_1_i_door_events.html#a0b2fa521eed1885f62970ad9383bdec5',1,'Robotics::Interface::IDoorEvents']]],
+  ['doubles_78',['Doubles',['../class_robotics_1_1_model_1_1_config.html#aba745864d784f28ff7d06a31a7e4e78e',1,'Robotics::Model::Config']]],
+  ['doubt_79',['Doubt',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619a818a631ad45a98c7c497afdccc01875b',1,'Robotics']]],
+  ['duration_80',['Duration',['../class_robotics_1_1_model_1_1_v_slam_build_map_event_args.html#a12f41f074adb86195d3046d3774024ef',1,'Robotics::Model::VSlamBuildMapEventArgs']]]
 ];

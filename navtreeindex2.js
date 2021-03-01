@@ -1,14 +1,16 @@
 var NAVTREEINDEX2 =
 {
+"namespace_robotics_1_1_interface.html":[2,0,0,0],
+"namespace_robotics_1_1_interface_1_1_extensions.html":[2,0,0,0,0],
 "namespace_robotics_1_1_interface_1_1_extensions.html":[1,0,0,0,0],
 "namespace_robotics_1_1_interface_1_1_factory.html":[1,0,0,0,1],
 "namespace_robotics_1_1_interface_1_1_factory.html":[2,0,0,0,1],
 "namespace_robotics_1_1_interface_1_1_factory_1_1_models.html":[2,0,0,0,1,0],
 "namespace_robotics_1_1_interface_1_1_factory_1_1_models.html":[1,0,0,0,1,0],
-"namespace_robotics_1_1_interface_1_1_factory_1_1_settings.html":[2,0,0,0,1,1],
 "namespace_robotics_1_1_interface_1_1_factory_1_1_settings.html":[1,0,0,0,1,1],
-"namespace_robotics_1_1_model.html":[1,0,0,1],
+"namespace_robotics_1_1_interface_1_1_factory_1_1_settings.html":[2,0,0,0,1,1],
 "namespace_robotics_1_1_model.html":[2,0,0,1],
+"namespace_robotics_1_1_model.html":[1,0,0,1],
 "namespacemembers.html":[1,1,0],
 "namespacemembers_enum.html":[1,1,2],
 "namespacemembers_func.html":[1,1,1],

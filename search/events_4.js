@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['globalcostmapreceived_704',['GlobalCostmapReceived',['../interface_robotics_1_1_interface_1_1_i_navigation_events.html#a823959a175b60ecdec1f01229de41c77',1,'Robotics::Interface::INavigationEvents']]]
+  ['footprintposereceived_707',['FootprintPoseReceived',['../interface_robotics_1_1_interface_1_1_i_mapping_events.html#a33c47bc675ae3f85b67aadc77f33a335',1,'Robotics::Interface::IMappingEvents']]]
 ];

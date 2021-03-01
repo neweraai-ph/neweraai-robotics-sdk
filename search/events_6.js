@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ircamera1imagereceived_707',['IRCamera1ImageReceived',['../interface_robotics_1_1_interface_1_1_i_camera_events.html#aa2843b5a3fbbcaec345514536fb4bb3f',1,'Robotics::Interface::ICameraEvents']]],
-  ['ircamera2imagereceived_708',['IRCamera2ImageReceived',['../interface_robotics_1_1_interface_1_1_i_camera_events.html#afdcd7379a108e3e1d74ba7566916c8d5',1,'Robotics::Interface::ICameraEvents']]]
+  ['hdddiagnosticsstatusupdate_709',['HddDiagnosticsStatusUpdate',['../interface_robotics_1_1_interface_1_1_i_system_diagnostic_events.html#a5c03bee460bf1eb066960abdedba6ad7',1,'Robotics::Interface::ISystemDiagnosticEvents']]],
+  ['horizontalheadstatereceived_710',['HorizontalHeadStateReceived',['../interface_robotics_1_1_interface_1_1_i_robot_events.html#a76a6b8ff86636ad3876f5b3c6f95f310',1,'Robotics::Interface::IRobotEvents']]]
 ];
