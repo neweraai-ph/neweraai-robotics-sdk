@@ -11,6 +11,7 @@ var hierarchy =
     [ "Robotics.Model.Configuration", "class_robotics_1_1_model_1_1_configuration.html", null ],
     [ "Robotics.Model.Costmap", "class_robotics_1_1_model_1_1_costmap.html", null ],
     [ "Robotics.Interface.Extensions.CostmapExtensions", "class_robotics_1_1_interface_1_1_extensions_1_1_costmap_extensions.html", null ],
+    [ "Robotics.Model.CostmapUpdate", "class_robotics_1_1_model_1_1_costmap_update.html", null ],
     [ "Robotics.Model.DiagnosticStatus", "class_robotics_1_1_model_1_1_diagnostic_status.html", null ],
     [ "Robotics.Model.DisposableObject< T >", "class_robotics_1_1_model_1_1_disposable_object.html", null ],
     [ "Robotics.Model.DockingIR", "class_robotics_1_1_model_1_1_docking_i_r.html", null ],

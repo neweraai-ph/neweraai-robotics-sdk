@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Robotics.SDK
-   &#160;<span id="projectnumber">v0.11.0</span>
+   &#160;<span id="projectnumber">0.12.0</span>
    </div>
   </td>
  </tr>
@@ -93,17 +93,25 @@ $(document).ready(function(){initNavTree('namespace_robotics.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:aefffe49fa298ed6b8787e16f45c779de"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779de">AutoDockStatus</a> { <br />
-&#160;&#160;<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deac2efe4bbd13e6cb0db293e72884273c0">AutoDockStatus.Starting</a> = 100, 
-<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea718646f82ec025fa89a124b903115872">AutoDockStatus.C01DoSectionB</a>, 
-<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea3332527d5647aeb00ac955c375ea84d8">AutoDockStatus.C01GoToDocking</a>, 
-<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea505a83f220c02df2f85c3810cd9ceb38">AutoDockStatus.Success</a>, 
+&#160;&#160;<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea2dbec34a65724db94f81e8533ee18192">AutoDockStatus.Standby</a> = 100, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deac2efe4bbd13e6cb0db293e72884273c0">AutoDockStatus.Starting</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea218e908032c453ed7157872e982fb14c">AutoDockStatus.CheckRearDistance</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dead1300ab6ca24a6c8a50ac657f86beb04">AutoDockStatus.FindChargeDock</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea3332527d5647aeb00ac955c375ea84d8">AutoDockStatus.C01GoToDocking</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deae51c87c0bd20d12e5fda04f7e4bcfb91">AutoDockStatus.SlowBackwardCharge</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea6327b4e59f58137083214a1fec358855">AutoDockStatus.Retry</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea2c95daf5019d8f8b07058c3ecb9a52fe">AutoDockStatus.DoubleChecking</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea505a83f220c02df2f85c3810cd9ceb38">AutoDockStatus.Success</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deaf7c3b8845901a910e7ba8e587bca7f83">AutoDockStatus.CancelledbyCommand</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deaf96ed647e9a1d50129c7d1e5d38d3962">AutoDockStatus.CancelledbyButon</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea902b0d55fddef6f8d651fe1035b7d4bd">AutoDockStatus.Error</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deac85a251cc457840f1e032f1b733e9398">AutoDockStatus.Timeout</a>, 
-<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea902b0d55fddef6f8d651fe1035b7d4bd">AutoDockStatus.Error</a>, 
-<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea6327b4e59f58137083214a1fec358855">AutoDockStatus.Retry</a>, 
-<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deaa149e85a44aeec9140e92733d9ed694e">AutoDockStatus.Cancelled</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea2dbec34a65724db94f81e8533ee18192">AutoDockStatus.Standby</a>
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dea5763fe636f008e9117d54620bf2ac1d8">AutoDockStatus.DockNotFound</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779deaa839cdd972bfadbe8f7c27d7a42c5767">AutoDockStatus.BackwardDockNotFound</a>, 
+<a class="el" href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779dead6cf7783a31dd5a6bbbd4331f0b01551">AutoDockStatus.Retrying5x</a>
 <br />
  }</td></tr>
 <tr class="memdesc:aefffe49fa298ed6b8787e16f45c779de"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Auto Dock Status.</b>  <a href="namespace_robotics.html#aefffe49fa298ed6b8787e16f45c779de">More...</a><br /></td></tr>
@@ -219,23 +227,38 @@ Enumerations</h2></td></tr>
 
 <p><b>Auto Dock Status.</b> </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deac2efe4bbd13e6cb0db293e72884273c0"></a>Starting&#160;</td><td class="fielddoc"><p>Start auto docking process. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea2dbec34a65724db94f81e8533ee18192"></a>Standby&#160;</td><td class="fielddoc"><p>Auto dock standby <br  />
+ </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea718646f82ec025fa89a124b903115872"></a>C01DoSectionB&#160;</td><td class="fielddoc"><p>C01 do section B. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deac2efe4bbd13e6cb0db293e72884273c0"></a>Starting&#160;</td><td class="fielddoc"><p>Start auto docking process. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea3332527d5647aeb00ac955c375ea84d8"></a>C01GoToDocking&#160;</td><td class="fielddoc"><p>C01 go to docking. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea218e908032c453ed7157872e982fb14c"></a>CheckRearDistance&#160;</td><td class="fielddoc"><p>Checking distance behind robot. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea505a83f220c02df2f85c3810cd9ceb38"></a>Success&#160;</td><td class="fielddoc"><p>Robot has docked. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dead1300ab6ca24a6c8a50ac657f86beb04"></a>FindChargeDock&#160;</td><td class="fielddoc"><p>Finding Charge Dock. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deac85a251cc457840f1e032f1b733e9398"></a>Timeout&#160;</td><td class="fielddoc"><p>Docking timeout occured. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea3332527d5647aeb00ac955c375ea84d8"></a>C01GoToDocking&#160;</td><td class="fielddoc"><p>Backward to Charge. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc"><p>No docking station found or ultra sonic sensors too close. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deae51c87c0bd20d12e5fda04f7e4bcfb91"></a>SlowBackwardCharge&#160;</td><td class="fielddoc"><p>Backward slowly to charge. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea6327b4e59f58137083214a1fec358855"></a>Retry&#160;</td><td class="fielddoc"><p>Retry docking (Robot will move infront of docking station). </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea6327b4e59f58137083214a1fec358855"></a>Retry&#160;</td><td class="fielddoc"><p>Retry auto docking. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deaa149e85a44aeec9140e92733d9ed694e"></a>Cancelled&#160;</td><td class="fielddoc"><p>Auto dock process cancelled. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea2c95daf5019d8f8b07058c3ecb9a52fe"></a>DoubleChecking&#160;</td><td class="fielddoc"><p>Double check is connected with charging dock. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea2dbec34a65724db94f81e8533ee18192"></a>Standby&#160;</td><td class="fielddoc"><p>Auto dock standby. </p>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea505a83f220c02df2f85c3810cd9ceb38"></a>Success&#160;</td><td class="fielddoc"><p>Auto dock success. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deaf7c3b8845901a910e7ba8e587bca7f83"></a>CancelledbyCommand&#160;</td><td class="fielddoc"><p>Auto dock process cancel by /dock_command. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deaf96ed647e9a1d50129c7d1e5d38d3962"></a>CancelledbyButon&#160;</td><td class="fielddoc"><p>Auto dock process cancel by emergency button. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc"><p>/dock_command content error. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deac85a251cc457840f1e032f1b733e9398"></a>Timeout&#160;</td><td class="fielddoc"><p>Timeout (&gt; 500 seconds). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dea5763fe636f008e9117d54620bf2ac1d8"></a>DockNotFound&#160;</td><td class="fielddoc"><p>Can not find the dock. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779deaa839cdd972bfadbe8f7c27d7a42c5767"></a>BackwardDockNotFound&#160;</td><td class="fielddoc"><p>Backward but can't find the dock. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aefffe49fa298ed6b8787e16f45c779dead6cf7783a31dd5a6bbbd4331f0b01551"></a>Retrying5x&#160;</td><td class="fielddoc"><p>Retry over 5 times. </p>
 </td></tr>
 </table>
 

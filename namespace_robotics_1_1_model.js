@@ -9,6 +9,7 @@ var namespace_robotics_1_1_model =
     [ "ConfigParameterDescription", "struct_robotics_1_1_model_1_1_config_parameter_description.html", "struct_robotics_1_1_model_1_1_config_parameter_description" ],
     [ "Configuration", "class_robotics_1_1_model_1_1_configuration.html", "class_robotics_1_1_model_1_1_configuration" ],
     [ "Costmap", "class_robotics_1_1_model_1_1_costmap.html", "class_robotics_1_1_model_1_1_costmap" ],
+    [ "CostmapUpdate", "class_robotics_1_1_model_1_1_costmap_update.html", "class_robotics_1_1_model_1_1_costmap_update" ],
     [ "DiagnosticStatus", "class_robotics_1_1_model_1_1_diagnostic_status.html", "class_robotics_1_1_model_1_1_diagnostic_status" ],
     [ "DisposableObject", "class_robotics_1_1_model_1_1_disposable_object.html", "class_robotics_1_1_model_1_1_disposable_object" ],
     [ "DockingIR", "class_robotics_1_1_model_1_1_docking_i_r.html", "class_robotics_1_1_model_1_1_docking_i_r" ],

@@ -49,8 +49,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_robotics_1_1_model_1_1_ultra_sonic.html#a5607835959a817d207d2d729bd9fa290",
-"namespace_robotics_1_1_interface.html"
+"class_robotics_1_1_model_1_1_switch_map_result.html",
+"interface_robotics_1_1_interface_1_1_i_v_slam_build_map.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

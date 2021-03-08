@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['ok_568',['OK',['../namespace_robotics.html#a4a7cf3d9aae848482cd634896ae64113ae0aa021e21dddbd6d8cecec71e9cf564',1,'Robotics']]],
-  ['overheat_569',['Overheat',['../namespace_robotics.html#a2091d6404c7211bb61c636688fe47670a5d266c94c2159265bb64c43aa05a3c28',1,'Robotics']]],
-  ['overvoltage_570',['OverVoltage',['../namespace_robotics.html#a2091d6404c7211bb61c636688fe47670a3e4ac0fd51826657d85c704c813ef8bf',1,'Robotics']]]
+  ['nicd_582',['NiCd',['../namespace_robotics.html#aee8d599e4a502220d46c8257319b3a13a9ed629d774885ba9f3ec278df0324135',1,'Robotics']]],
+  ['nimh_583',['NiMh',['../namespace_robotics.html#aee8d599e4a502220d46c8257319b3a13ab6e0e22071b4a8acf10bf5ce8a36e112',1,'Robotics']]],
+  ['normal_584',['Normal',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619a960b44c579bc2f6818d2daaf9e4c16f0',1,'Robotics']]],
+  ['notcharging_585',['NotCharging',['../namespace_robotics.html#a16d8fb08fb66e5830e1a2bb46e09e3c6a7c7aa88e5d402716f0d0a1ae95884db3',1,'Robotics']]]
 ];

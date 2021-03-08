@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['happy_557',['Happy',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619aef97b40b2245d3690c745cd6e8c663db',1,'Robotics']]]
+  ['good_574',['Good',['../namespace_robotics.html#a2091d6404c7211bb61c636688fe47670a0c6ad70beb3a7e76c3fc7adab7c46acc',1,'Robotics']]]
 ];
