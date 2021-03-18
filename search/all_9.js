@@ -12,7 +12,8 @@ var searchData=
   ['lipo_195',['LiPo',['../namespace_robotics.html#aee8d599e4a502220d46c8257319b3a13a09da7957059a81024bd1600b529356b0',1,'Robotics']]],
   ['loadmap_196',['LoadMap',['../interface_robotics_1_1_interface_1_1_i_navigation.html#a60c672ea8fefda59a2ec651061f03652',1,'Robotics.Interface.INavigation.LoadMap(string mapName)'],['../interface_robotics_1_1_interface_1_1_i_navigation.html#a472e8620c46f252b9f64948357e1bdbf',1,'Robotics.Interface.INavigation.LoadMap(string mapName, Pose initialPose)']]],
   ['localcostmapreceived_197',['LocalCostmapReceived',['../interface_robotics_1_1_interface_1_1_i_navigation_events.html#a55623d19139675d44f5a5f8643eb2813',1,'Robotics::Interface::INavigationEvents']]],
-  ['location_198',['Location',['../class_robotics_1_1_model_1_1_battery.html#aecf3f9044638fd2241cdb116d69cb408',1,'Robotics::Model::Battery']]],
-  ['lockstatereceived_199',['LockStateReceived',['../interface_robotics_1_1_interface_1_1_i_door_events.html#a5073d0c69e8785455be0e07194394ced',1,'Robotics::Interface::IDoorEvents']]],
-  ['love_200',['Love',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619a8bd7a1153a88761ad9d37e2f2394c947',1,'Robotics']]]
+  ['localcostmapupdatereceived_198',['LocalCostmapUpdateReceived',['../interface_robotics_1_1_interface_1_1_i_navigation_events.html#afa5c6f16308335141d860da4136b7003',1,'Robotics::Interface::INavigationEvents']]],
+  ['location_199',['Location',['../class_robotics_1_1_model_1_1_battery.html#aecf3f9044638fd2241cdb116d69cb408',1,'Robotics::Model::Battery']]],
+  ['lockstatereceived_200',['LockStateReceived',['../interface_robotics_1_1_interface_1_1_i_door_events.html#a5073d0c69e8785455be0e07194394ced',1,'Robotics::Interface::IDoorEvents']]],
+  ['love_201',['Love',['../namespace_robotics.html#ab5382f62ff01fba6394c46b1a1e2e619a8bd7a1153a88761ad9d37e2f2394c947',1,'Robotics']]]
 ];

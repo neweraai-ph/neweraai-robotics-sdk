@@ -7,6 +7,7 @@ var interface_robotics_1_1_interface_1_1_i_navigation_events =
     [ "GlobalCostmapUpdateReceived", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#aeab4015efdc0dbb0aeed99f71982daf7", null ],
     [ "LaserScanUpdateReceived", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#aaa1fe4c6cd1c7d9d82a29187fe6ed1b5", null ],
     [ "LocalCostmapReceived", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#a55623d19139675d44f5a5f8643eb2813", null ],
+    [ "LocalCostmapUpdateReceived", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#afa5c6f16308335141d860da4136b7003", null ],
     [ "NavigationMapReceived", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#af914800200fcb39c157072f9b82d78d9", null ],
     [ "NavigationStatusChanged", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#afc960d2bbfe0449fcc763326d1cce0fb", null ],
     [ "NavigationStatusReceived", "interface_robotics_1_1_interface_1_1_i_navigation_events.html#af7fb2415628f390ee851683a81abcfbf", null ],

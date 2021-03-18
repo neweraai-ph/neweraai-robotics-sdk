@@ -50,7 +50,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "class_robotics_1_1_model_1_1_switch_map_result.html",
-"interface_robotics_1_1_interface_1_1_i_v_slam_build_map.html"
+"interface_robotics_1_1_interface_1_1_i_ultra_sonic.html#af733589c76bb4f841bb29f82a583e4aa"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
